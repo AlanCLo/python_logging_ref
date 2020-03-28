@@ -6,7 +6,7 @@ import logging
 
 
 
-### Most info
+### Most info, lowest %(levelno)
 
 #logging.basicConfig(level=logging.NOTSET)
 #logging.basicConfig(level=logging.DEBUG)
@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.INFO)
 #logging.basicConfig(level=logging.ERROR)
 #logging.basicConfig(level=logging.CRITICAL)
 
-### Least info
+### Least info, highest %(levelno)
 
 
 logging.debug("debug")
