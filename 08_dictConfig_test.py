@@ -95,14 +95,14 @@ t.do()
 # 2020-03-28 22:14:58 - module1.thing - WARNING - warning
 # 2020-03-28 22:14:58 - module1.thing - ERROR - error
 # 2020-03-28 22:14:58 - module1.thing - CRITICAL - critical
-# 
+ 
 # $ cat dict_file.log 
 # 2020-03-28 22:14:58 - default - DEBUG - debug
 # 2020-03-28 22:14:58 - default - INFO - info
 # 2020-03-28 22:14:58 - default - WARNING - warning
 # 2020-03-28 22:14:58 - default - ERROR - error
 # 2020-03-28 22:14:58 - default - CRITICAL - critical
-# 
+ 
 # $ cat dict_errors_only.log 
 # ERROR: 2020-03-28 22:14:58,682 - default - error
 # ERROR: 2020-03-28 22:14:58,682 - default - critical
