@@ -8,6 +8,7 @@ from logging.handlers import RotatingFileHandler
 log = logging.getLogger('test')
 log.setLevel(logging.DEBUG) # Max output
 
+# Ref: https://docs.python.org/2/library/logging.handlers.html#rotatingfilehandler
 
 rotating_handler = RotatingFileHandler('rotating.log', maxBytes=300, backupCount=3)
 rotating_handler.setFormatter(logging.Formatter('%(filename)s: %(message)s'))
