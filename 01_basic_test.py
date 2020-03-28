@@ -1,9 +1,11 @@
 #!/usr/bin/env python
 
+### Levels
 
 import logging
 
-### Levels
+
+
 ### Most info
 
 #logging.basicConfig(level=logging.NOTSET)
@@ -22,5 +24,10 @@ logging.warning("warning")
 logging.error("error")
 logging.critical("critical")
 
+# $ ./01_basic_test.py 
+# INFO:root:info
+# WARNING:root:warning
+# ERROR:root:error
+# CRITICAL:root:critical
 
 
